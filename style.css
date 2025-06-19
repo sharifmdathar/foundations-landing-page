@@ -9,7 +9,7 @@
 .hero,
 header {
   background-color: #1f2937;
-  padding: 20px 100px;
+  padding: 20px 11vw;
 }
 
 header {
@@ -35,7 +35,7 @@ a {
 .hero {
   display: flex;
   gap: 50px;
-  padding: 60px 100px;
+  padding: 60px 11vw;
   align-items: center;
 }
 
@@ -82,6 +82,21 @@ button {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  padding: 20px 15vw;
+  padding-bottom: 50px;
+}
+
+.card img {
+  border-radius: 6px;
 }
 
 .random-quote {
